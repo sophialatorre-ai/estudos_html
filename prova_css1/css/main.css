@@ -39,3 +39,39 @@ h4 {
     /* float - flutuar */
 }
 
+.menu a {
+    padding: 20px;
+    /* margem interna */
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    /* centralizar */
+    background-color: #2b1010;
+    color: white;
+    /* cor do texto */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+}
+
+.menu ul ul {
+    position: absolute;
+    visibility: hidden;
+    /* hidden - opacidade */
+
+}
+
+.menu ul li:hover ul {
+    visibility: visible;
+
+}
+
+.menu a:hover {
+    background-color: #862175;
+    color: yellowgreen;
+}
+
+.menu ul ul li{
+    float: none;
+    border-bottom: solid 1px #ccc;
+
+}
