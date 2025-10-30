@@ -28,9 +28,36 @@
             position: absolute;
             background-color: #f9f9f9;
             min-width: 160px;
+            /* minimo de largura */
             box-shadow: 0 8px 16px 0 rgb(from 0, 0, 0, 0.2);
             z-index: 1;
         }
+
+        .dropdown-conteudo a{
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            /* display block - faz o link ocupar toda largura disponível(é clicavel em toda linha)*/
+            display: block;
+        }
+
+        .dropdown-conteudo a:hover{
+            background-color: #f1f1f1;
+        }
+
+        .dropdown:hover .dropdown-conteudo{
+            /* Quando o usuario passa o mouse sobre o elemento classe .dropsown o conteúdo */
+            /* oculto é exibido */
+            /*  */
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn{
+            /*Muda a cor do botão proncipal quando o menu esta sendo exibido */
+            background-color: #3e8e41;
+
+        }
+
 
     </style>
 </head>
